@@ -1,0 +1,39 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(../images/sakura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  color: white;
+  font-family: "IM Fell DW Pica SC", serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-size: 48px;
+}
+.header p {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 20px;
+}
+@media (max-width: 570px) {
+  .header p {
+    display: none;
+  }
+  .header {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
