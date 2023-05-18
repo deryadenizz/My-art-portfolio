@@ -98,6 +98,7 @@ section.secondary {
 }
 table {
   border: #648c85 1px solid;
+  overflow-x: scroll;
 }
 td img {
   max-width: 50%;
